@@ -1,0 +1,9 @@
+[sinks.console_sink]
+type = "console"
+inputs = [ "cubejs-server", "redis", "demo-logs" ]
+[sinks.console_sink.encoding]
+codec = "json"
+
+[sinks.console_sink_cubestore]
+type = "console"
+inputs = [ "cubestore" ]
