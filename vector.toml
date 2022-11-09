@@ -10,4 +10,4 @@ inputs = [ "cubestore" ]
 [sinks.console_sink_cubestore.encoding]
 codec = "json"
 [sinks.console_sink_cubestore.cubestore]
-levels = [ "CUBE_CLOUD_LOG_EXPORT_CONSOLE_LEVEL-info" ]
+levels = [ "CUBE_CLOUD_LOG_EXPORT_CONSOLE_LEVEL-error" ]
