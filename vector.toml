@@ -7,3 +7,5 @@ codec = "json"
 [sinks.console_sink_cubestore]
 type = "console"
 inputs = [ "cubestore" ]
+[sinks.console_siconsole_sink_cubestorenk.encoding]
+codec = "json"
